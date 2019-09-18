@@ -1,2 +1,5 @@
 # leetCodePractice
-leetcode每天练
+
+leetcode 每天刷
+
+刷啊 ~ ~ ~ ~
