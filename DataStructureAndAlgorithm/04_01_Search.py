@@ -34,6 +34,25 @@ def binary_search_iter(nums, val):
             left = mid + 1
     return -1
 
+def binary_search2(nums, val):
+    if not nums:
+        return -1
+    left, right = 0, len(nums) - 1
+    # 退出while的三个条件 LR,L(R),RL
+    while left + 1 < right:
+        mid = left + (right - left) // 2
+        if nums[mid] == val:
+            right = mid
+        elif nums[mid] > val:
+            left = mid
+        elif nums[mid] < val:
+            right = mid
+    if nums[left] == val:
+        return left
+    if nums[right] == val:
+        return right
+    return -1
+
 
 
 import unittest
