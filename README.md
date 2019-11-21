@@ -1,5 +1,4 @@
 # leetCodePractice
 
-leetcode 每天刷
+python3 数据结构
 
-刷啊 ~ ~ ~ ~
